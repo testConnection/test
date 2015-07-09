@@ -30,7 +30,7 @@ public class MouseDemo extends JFrame implements MouseListener,
 	public void mouseClicked(MouseEvent e) {
 		// 左击事件
 		if (e.getButton() == MouseEvent.BUTTON1)
-			System.out.println("zuo ji shi jian ....");
+			System.out.println("左键点击事件");
 		// 滑轮按下事件
 		if (e.getButton() == MouseEvent.BUTTON2)
 			System.out.println("zhong  ji shi jian ....");
